@@ -1,0 +1,27 @@
+# 数据集文件体积过大，不纳入版本控制（下载见 Releases）
+*.jsonl
+全部源码/DSAGM/cail_big/*
+全部源码/DSAGM/cail_small/*
+全部源码/DAPOM/cail_big/*
+全部源码/DAPOM/cail_small/*
+!全部源码/DSAGM/cail_big/.gitkeep
+!全部源码/DSAGM/cail_small/.gitkeep
+!全部源码/DAPOM/cail_big/.gitkeep
+!全部源码/DAPOM/cail_small/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+.idea/
+.vscode/
+
+# Node
+node_modules/
+系统/vue2-element-UI-system-main/dist/
+
+# 运行产物
+results/
+*.log
